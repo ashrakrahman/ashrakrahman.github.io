@@ -22,12 +22,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://ashrakrahman.github.io/files/pic.jpg"
   name             : "Ashrak Rahman Lipu"
   pronouns         : # example: "she/her"
   bio              : "Software Engineer"
   location         : "Montreal, Quebec"
-  employer         : "Rajshahi University of Eng & Tech (RUET)"
+  employer         : "RUET"
   uri              : # URL
   email            : "ashrakrahman@gmail.com"
 
