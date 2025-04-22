@@ -9,10 +9,10 @@
 
 main:
   - title: "Projects"
-    url: /publications/
+    url: /projects/
 
   - title: "Publication & Certifications"
-    url: /talks/
+    url: /publications/
 
   # - title: "Teaching"
   #   url: /teaching/
@@ -24,7 +24,7 @@ main:
   #   url: /year-archive/
 
   - title: "CV"
-    url: /cv/
+    url: "https://ashrakrahman.github.io/files/cv.pdf"
 
   # - title: "CV"
   #   url: /cv-json/
