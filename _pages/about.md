@@ -52,6 +52,19 @@ A Passionate Software Engineer searching for a responsible and challenging posit
 
 ---
 
+
+<div style="font-size: 1em; font-weight: bold; margin-top: .5em;"> B-Trac Solutions Ltd. (Harriken.com) – Software Developer</div>
+
+<div style="font-size: 0.9em; color: #666;">📍 Dhaka, Bangladesh &nbsp;&nbsp; | &nbsp;&nbsp; 🗓 Jun 2017 – Oct 2018</div>
+
+<ul style="font-size: 0.88em; line-height: 1.5;">
+  <li>Developed RESTful APIs for Harriken’s Web, iOS, and Android platforms using Laravel and MySQL.</li>
+  <li>Built Restaurant Management System and Bill Verification tools for bKash Restaurant Week Campaign.</li>
+  <li>Created QR-based Jackpot System to reward users through Harriken’s app during promotional campaigns.</li>
+</ul>
+
+---
+
 <div style="font-size: 1.3em; font-weight: bold; margin-top: 1em;">🎓 Education</div>
 <div style="font-size: 1em; font-weight: bold; margin-top: .5em;">B.Sc in Computer Science & Engineering (CSE)</div>
 <div style="font-size: 0.9em; color: #666;">📍Rajshahi University of Engineering and Technology (RUET), Bangladesh</div>
