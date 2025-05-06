@@ -78,18 +78,27 @@ author_profile: true
 
 .visit-btn {
   display: inline-block;
-  margin-top: 0.5rem;
-  padding: 0.5rem 1rem;
+  padding: 12px 24px;
   background-color: #2a7ae2;
-  color: white;
-  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 50px; /* Round button corners */
   text-decoration: none;
-  font-size: 0.9rem;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(42, 122, 226, 0.2);
 }
 
 .visit-btn:hover {
   background-color: #1c5db6;
+  transform: translateY(-2px); /* Lifts button on hover */
+  box-shadow: 0 8px 15px rgba(42, 122, 226, 0.3); /* Darker shadow */
+}
+
+.visit-btn:active {
+  transform: translateY(0); /* Returns button to normal when clicked */
+  box-shadow: 0 4px 10px rgba(42, 122, 226, 0.2);
 }
 </style>
 
