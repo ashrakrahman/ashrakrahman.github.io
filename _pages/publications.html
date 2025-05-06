@@ -1,39 +1,125 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+title: "Projects & Publications"
+permalink: /projects/
 author_profile: true
 ---
 
-<div>Test</div>
+<style>
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2a7ae2;
+  margin-top: 2rem;
+}
 
-<!-- {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+.project-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
 
-{% include base_path %}
+.project-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+.project-card:hover {
+  transform: translateY(-5px);
+}
 
--->
+.project-thumbnail img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background-color: #fff;
+  padding: 1rem;
+}
 
+.project-content {
+  padding: 1rem;
+}
 
+.project-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2a7ae2;
+  margin-bottom: 0.5rem;
+}
 
+.project-link {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.publication-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f0f8ff;
+  border-left: 4px solid #2a7ae2;
+  border-radius: 5px;
+}
+
+.publication-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2a7ae2;
+}
+
+.publication-meta {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+</style>
+
+🧰 Projects
+
+<div class="project-gallery">
+
+  <div class="project-card">
+    <div class="project-thumbnail">
+      <img src="https://rankworks.com/wp-content/uploads/2020/09/Untitled-1.png" alt="RankWorks Logo">
+    </div>
+    <div class="project-content">
+      <div class="project-title">RankWorks Business Platform</div>
+      <a href="https://business.rankworks.com/" class="project-link" target="_blank">Visit Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-thumbnail">
+      <img src="https://static.wixstatic.com/media/3e8a5b_31a6f20c0e334538b5336b98824596e4~mv2.png/v1/fill/w_310,h_260,al_c,q_85,enc_avif,quality_auto/commsuit-meeting2.png" alt="CommChat Logo">
+    </div>
+    <div class="project-content">
+      <div class="project-title">CommChat Video Conferencing</div>
+      <a href="https://www.commchat.com/" class="project-link" target="_blank">Visit Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <div class="project-thumbnail">
+      <img src="https://raw.githubusercontent.com/ashrakrahman/AI-Universe-Hub/main/demo-thumbnail.jpg" alt="AI Universe Hub">
+    </div>
+    <div class="project-content">
+      <div class="project-title">AI Universe Hub</div>
+      <a href="https://github.com/ashrakrahman/AI-Universe-Hub" class="project-link" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+
+</div>
+
+📚 Publication
+
+<div class="publication-card">
+  <div class="publication-title">
+    Exploiting Parallelism for Faster Implementation of Bubble Sort Algorithm Using FPGA
+  </div>
+  <div class="publication-meta">
+    2nd International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE), 8–10 December 2016, Rajshahi, Bangladesh
+  </div>
+  <a href="https://ieeexplore.ieee.org/document/7879576/" target="_blank">🔗 View on IEEE Xplore</a>
+</div>
